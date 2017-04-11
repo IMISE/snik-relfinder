@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<data>
+	<example>
+		<endpoint>snik</endpoint>
+		<object>
+			<label>Information Management Entity Type</label>
+			<uri>http://www.snik.eu/ontology/bb/InformationManagementEntityType</uri>
+		</object>
+		<object>
+			<label>Patient Care Entity Type</label>
+			<uri>http://www.snik.eu/ontology/bb/PatientCareEntityType</uri>
+		</object>
+	</example>
+</data>

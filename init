@@ -1,0 +1,8 @@
+FILE=RelFinder.swf    
+if [ -f $FILE ]; then
+   echo "Binaries already exist. Aborting."
+else
+	echo "Downloading binaries..."
+	wget https://github.com/VisualDataWeb/RelFinder/blob/master/bin/RelFinder.swf -nv
+	echo "Finished downloading binaries." 
+fi
