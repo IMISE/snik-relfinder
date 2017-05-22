@@ -139,8 +139,6 @@
         <autocompleteURI>http://www.w3.org/2000/01/rdf-schema#label</autocompleteURI>
         <autocompleteURI>http://www.w3.org/2004/02/skos/core#altLabel</autocompleteURI>
       </autocompleteURIs>
-      <autocompleteLanguage>en</autocompleteLanguage>
-      <autocompleteLanguage>de</autocompleteLanguage>
       <ignoredProperties>
         <ignoredProperty>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</ignoredProperty>
         <ignoredProperty>http://open.vocab.org/terms/defines</ignoredProperty>
