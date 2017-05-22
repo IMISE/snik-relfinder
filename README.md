@@ -1,6 +1,6 @@
 # RelFinder for SNIK
 
-[RelFinder](http://www.visualdataweb.org/relfinder.php) [integration](http://www.visualdataweb.org/integrating.php) with the [SNIK](http://www.snik.eu) [Ontology](http://www.snik.eu/ontology)).
+[RelFinder](http://www.visualdataweb.org/relfinder.php) [integration](http://www.visualdataweb.org/integrating.php) with the [SNIK](http://www.snik.eu) [Ontology](http://www.snik.eu/ontology).
 
 ## Usage
 
