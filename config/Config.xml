@@ -76,45 +76,7 @@
 						URI of this property.
 
 			maxRelationLength:
-				The maximum length of relationships RelFinder will search for.
-
-	Example:
-	<endpoint>
-	      <name>DBpedia</name>
-	      <abbreviation>dbp</abbreviation>
-	      <description>Linked Data version of Wikipedia.</description>
-	      <endpointURI>http://dbpedia.org</endpointURI>
-		  <dontAppendSPARQL>false</dontAppendSPARQL>
-	      <defaultGraphURI>http://dbpedia.org</defaultGraphURI>
-	      <isVirtuoso>true</isVirtuoso>
-	      <useProxy>false</useProxy>
-		  <method>POST</method>
-	      <autocompleteURIs>
-	        <autocompleteURI>http://www.w3.org/2000/01/rdf-schema#label</autocompleteURI>
-	      </autocompleteURIs>
-		  <autocompleteLanguage>en</autocompleteLanguage>
-	      <ignoredProperties>
-	        <ignoredProperty>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</ignoredProperty>
-	        <ignoredProperty>http://www.w3.org/2004/02/skos/core#subject</ignoredProperty>
-	        <ignoredProperty>http://dbpedia.org/property/wikiPageUsesTemplate</ignoredProperty>
-	        <ignoredProperty>http://dbpedia.org/property/wordnet_type</ignoredProperty>
-	        <ignoredProperty>http://dbpedia.org/property/wikilink</ignoredProperty>
-	      </ignoredProperties>
-	      <abstractURIs>
-	        <abstractURI>http://dbpedia.org/property/abstract</abstractURI>
-	      </abstractURIs>
-	      <imageURIs>
-	        <imageURI>http://dbpedia.org/ontology/thumbnail</imageURI>
-	        <imageURI>http://xmlns.com/foaf/0.1/depiction</imageURI>
-	      </imageURIs>
-	      <linkURIs>
-	        <linkURI>http://purl.org/ontology/mo/wikipedia</linkURI>
-	        <linkURI>http://xmlns.com/foaf/0.1/homepage</linkURI>
-	        <linkURI>http://xmlns.com/foaf/0.1/page</linkURI>
-	      </linkURIs>
-	      <maxRelationLength>2</maxRelationLength>
-	    </endpoint>
-
+				The maximum length of relationships RelFinder will search for.	
 -->
 
 <data>
@@ -154,5 +116,35 @@
       </linkURIs>
       <maxRelationLength>3</maxRelationLength>
     </endpoint>
+
+    <endpoint>
+      <name>SNIK-Selection</name>
+      <abbreviation>snik-selection</abbreviation>
+      <description>Semantic Network of Information Management in Hospitals without the most common resources that cause trivial paths.</description>
+      <endpointURI>http://www.snik.eu</endpointURI>
+      <dontAppendSPARQL>false</dontAppendSPARQL>
+      <defaultGraphURI>http://www.snik.eu/ontology/relfinder</defaultGraphURI>
+      <isVirtuoso>true</isVirtuoso>
+      <useProxy>false</useProxy>
+      <method>POST</method>
+      <autocompleteURIs>
+        <autocompleteURI>http://www.w3.org/2000/01/rdf-schema#label</autocompleteURI>
+        <autocompleteURI>http://www.w3.org/2004/02/skos/core#altLabel</autocompleteURI>
+      </autocompleteURIs>
+      <ignoredProperties>
+        <ignoredProperty>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</ignoredProperty>
+        <ignoredProperty>http://open.vocab.org/terms/defines</ignoredProperty>
+        <ignoredProperty>http://www.snik.eu/ontology/meta/subTopClass</ignoredProperty>
+      </ignoredProperties>
+      <abstractURIs>
+        <abstractURI>http://www.w3.org/2004/02/skos/core#definition</abstractURI>
+      </abstractURIs>
+      <imageURIs>
+      </imageURIs>
+      <linkURIs>
+        <linkURI>http://purl.org/dc/terms/source</linkURI>
+      </linkURIs>
+      <maxRelationLength>3</maxRelationLength>
+    </endpoint>	  
   </endpoints>
 </data>
